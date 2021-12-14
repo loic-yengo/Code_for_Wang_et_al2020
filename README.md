@@ -4,11 +4,12 @@ This folder contains R script and RData to generate the main Figures from Wang e
 Source code of a custom C++ used to calculate LD-based statistics
 Compile C++ code
 > make
+
 > ./ldcorpair --help
 
 Options
---bfile      : Binary PLINK format for genotypes.
---snplist    : Specify the list of SNPs containing the target SNPs.
+> --bfile      : Binary PLINK format for genotypes.
+> --snplist    : Specify the list of SNPs containing the target SNPs.
 --window-kb  : Specify the window size to calculate LD correlations. Default is 100 kb.
 --out        : A prefix for the output file [prefix].ldcor.pairs.
 [Note] Missing values are imputed to the major allele.
