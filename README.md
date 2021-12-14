@@ -25,3 +25,6 @@ Overview of output
 > 1	rs28536514	rs58686784	910.409	810.78	C	C	T	G	0.19062	0.304841	0.103561	0.0107248	0.00920504
 
 > 1	rs28536514	rs114224245	910.409	811.136	C	C	T	G	0.19062	0.0234493	0.00218953	4.79404e-06	-0.00151496
+
+
+The annotated script: "Annotated_script_to_calculate_expected_relative_acccuracy.R" was added in Dec 2021 and used in Okbay et al. (2021) to calculate the expected relative accuracy of a Polygenic Score predicting educational attainment in a European ancestries sample relative to an African ancestries sample. The same method was used in Wang et al. (2020).
